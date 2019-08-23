@@ -1,0 +1,65 @@
+{
+    "pages": 
+    [
+        {
+            "id": 0,
+            "title": "Sales",
+            "sequence": 2
+        },
+        {
+            "id": 1,
+            "title": "Orders",
+            "sequence": 0
+        },
+        {
+            "id": 2,
+            "title": "Customers",
+            "sequence": 1
+        }
+    ],
+    "data": [
+        {
+            "id": 0,
+            "components": [
+                {
+                    "id": 0,
+                    "type": "bar",
+                    "title": "Sales List One",
+                    "labels": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+                    "data": [20, 10, 18, 15, 26, 18, 15, 22, 16, 12, 12, 13] 
+                },
+                {
+                    "id": 1,
+                    "type": "line",
+                    "title": "Second Sales List",
+                    "labels": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+                    "data": [5, 23, 12, 14, 22, 24, 15, 18, 16, 15, 12, 17] 
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "components": [
+                {
+                    "id": 0,
+                    "type": "pie",
+                    "title": "Orders",
+                    "labels": ["Sprint 1", "Sprint 2", "Sprint 3", "Sprint 4", "Sprint 5"],
+                    "data": [20, 10, 18, 15, 26] 
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "components": [
+                {
+                    "id": 0,
+                    "type": "line",
+                    "title": "Customers",
+                    "labels": ["Winter '18", "Spring '19", "Summer '19", "Autumn '19", "Winter '19"],
+                    "data": [5, 10, 12, 8, 22] 
+                }
+            ]
+        }
+    ]
+}
